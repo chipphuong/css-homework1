@@ -1,0 +1,51 @@
+/* skip link */
+.skip-link {
+  position: absolute;
+  top: -50px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* hover */
+.nav a:hover {
+  background: orange;
+  padding: 5px;
+}
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+/* images */
+img {
+  width: 100%;
+  border: 3px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* nth-child */
+.grid img:nth-child(even) {
+  border-radius: 30px;
+}
